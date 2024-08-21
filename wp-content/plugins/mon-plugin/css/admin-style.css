@@ -1,0 +1,103 @@
+/* Style général du formulaire pour l'admin */
+form {
+    background-color: #fff3cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style des labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #856404;
+}
+
+/* Style des champs de saisie */
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style du bouton de soumission */
+form input[type="submit"] {
+    background-color: #856404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6c4e03;
+}
+
+/* Style for the table */
+.wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.wrap th,
+.wrap td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrap th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Style for buttons */
+.wrap .button {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.wrap .button.button-secondary {
+    background-color: #d9534f;
+    color: white;
+    margin-right: 5px;
+}
+
+.wrap .button.button-secondary:hover {
+    background-color: #c9302c;
+}
+
+.wrap .button.button-primary {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.wrap .button.button-primary:hover {
+    background-color: #31b0d5;
+}
+
+/* Flexbox for aligning buttons */
+.wrap .button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.wrap .button-group form {
+    margin: 0;
+    padding: 0;
+}

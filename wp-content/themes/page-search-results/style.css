@@ -1,0 +1,33 @@
+/* search-results-styles.css */
+
+.search-results-container {
+    margin: 20px;
+}
+
+.search-results-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.search-results-container th,
+.search-results-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.search-results-container th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.search-results-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.search-results-container tr:hover {
+    background-color: #f1f1f1;
+}
